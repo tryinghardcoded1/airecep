@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import {
   Search,
@@ -32,7 +33,10 @@ import {
   MessageSquare,
   Clock,
   DollarSign,
-  Menu
+  Menu,
+  ArrowRight,
+  Shield,
+  Zap
 } from 'lucide-react';
 
 const callsData = [
@@ -182,7 +186,7 @@ const callsData = [
   }
 ];
 
-export default function App() {
+export function Dashboard() {
   const [expandedCallId, setExpandedCallId] = useState<string | null>(null);
   const [playingCallId, setPlayingCallId] = useState<string | null>(null);
   const [progress, setProgress] = useState(0);
@@ -716,5 +720,133 @@ function QuickFilter({ label, value, valueColor }: { label: string, value?: stri
         </>
       )}
     </button>
+  );
+}
+
+function Home() {
+  return (
+    <div className="min-h-screen bg-[#0a0a0a] text-gray-300 font-sans selection:bg-emerald-500/30 selection:text-emerald-200">
+      {/* Navbar */}
+      <nav className="fixed top-0 left-0 right-0 z-50 border-b border-[#262626] bg-[#0a0a0a]/80 backdrop-blur-md">
+        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <Bot className="w-6 h-6 text-emerald-500" />
+            <span className="font-bold text-lg text-white tracking-tight">AI RECEPTIONIST</span>
+          </div>
+          <div className="hidden md:flex items-center gap-8 text-sm font-medium">
+            <a href="#features" className="text-gray-400 hover:text-white transition-colors">Features</a>
+            <a href="#how-it-works" className="text-gray-400 hover:text-white transition-colors">How it Works</a>
+            <a href="#pricing" className="text-gray-400 hover:text-white transition-colors">Pricing</a>
+          </div>
+          <div className="flex items-center gap-4">
+            <Link to="/dashboard" className="hidden md:flex text-sm font-medium text-gray-300 hover:text-white transition-colors">
+              Sign In
+            </Link>
+            <Link to="/dashboard" className="flex items-center gap-2 px-4 py-2 bg-white hover:bg-gray-200 text-black rounded-lg text-sm font-medium transition-colors">
+              Go to Dashboard <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </nav>
+
+      {/* Hero Section */}
+      <section className="pt-32 pb-20 px-6 relative overflow-hidden">
+        {/* Abstract Background Elements */}
+        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-emerald-500/10 blur-[120px] rounded-full pointer-events-none" />
+        
+        <div className="max-w-4xl mx-auto text-center relative z-10">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#1a1a1a] border border-[#262626] text-emerald-400 text-sm font-medium mb-8">
+            <Sparkles className="w-4 h-4" /> Introducing Next-Gen Voice AI
+          </div>
+          <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight leading-tight mb-8">
+            Never miss a call.<br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">
+              Always sound human.
+            </span>
+          </h1>
+          <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+            Deploy an intelligent AI receptionist that answers calls, schedules appointments, and fields customer questions 24/7. Perfect for clinics, salons, and local businesses.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link to="/dashboard" className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl font-medium text-lg transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_-10px_rgba(16,185,129,0.5)]">
+              Start Free Trial
+            </Link>
+            <button className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-[#1a1a1a] hover:bg-[#262626] border border-[#333] text-white rounded-xl font-medium text-lg transition-all">
+              <Play className="w-5 h-5" /> Hear a Demo
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Grid */}
+      <section id="features" className="py-24 border-t border-[#1a1a1a] bg-[#050505]">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Everything you need to automate voice</h2>
+            <p className="text-gray-400">Powerful features built for modern businesses who care about customer experience.</p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-6">
+            {/* Feature 1 */}
+            <div className="bg-[#0a0a0a] border border-[#262626] p-8 rounded-2xl hover:border-[#404040] transition-colors relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 rounded-bl-full transition-transform group-hover:scale-110" />
+              <div className="w-12 h-12 bg-[#1a1a1a] border border-[#333] rounded-xl flex items-center justify-center mb-6">
+                <Clock className="w-6 h-6 text-emerald-400" />
+              </div>
+              <h3 className="text-xl font-semibold text-white mb-3">24/7 Availability</h3>
+              <p className="text-gray-400 leading-relaxed">
+                Your business never sleeps. Our AI receptionist answers the phone instantly, every time, no matter the hour.
+              </p>
+            </div>
+
+            {/* Feature 2 */}
+            <div className="bg-[#0a0a0a] border border-[#262626] p-8 rounded-2xl hover:border-[#404040] transition-colors relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-bl-full transition-transform group-hover:scale-110" />
+              <div className="w-12 h-12 bg-[#1a1a1a] border border-[#333] rounded-xl flex items-center justify-center mb-6">
+                <Shield className="w-6 h-6 text-blue-400" />
+              </div>
+              <h3 className="text-xl font-semibold text-white mb-3">Smart Routing</h3>
+              <p className="text-gray-400 leading-relaxed">
+                Intelligently transfers complex inquiries to the right human staff member with full context of the conversation.
+              </p>
+            </div>
+
+            {/* Feature 3 */}
+            <div className="bg-[#0a0a0a] border border-[#262626] p-8 rounded-2xl hover:border-[#404040] transition-colors relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/5 rounded-bl-full transition-transform group-hover:scale-110" />
+              <div className="w-12 h-12 bg-[#1a1a1a] border border-[#333] rounded-xl flex items-center justify-center mb-6">
+                <Zap className="w-6 h-6 text-purple-400" />
+              </div>
+              <h3 className="text-xl font-semibold text-white mb-3">Instant Transcripts</h3>
+              <p className="text-gray-400 leading-relaxed">
+                Every call is automatically recorded, transcribed, and summarized with sentiment analysis in your dashboard.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-[#262626] py-12 bg-[#0a0a0a]">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
+          <div className="flex items-center gap-2">
+            <Bot className="w-5 h-5 text-gray-400" />
+            <span className="font-semibold text-gray-300">AI RECEPTIONIST</span>
+          </div>
+          <div>© 2026 AI Receptionist Inc. All rights reserved.</div>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
   );
 }
