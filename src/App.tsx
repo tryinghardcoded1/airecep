@@ -767,13 +767,18 @@ function Home() {
           <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
             Deploy an intelligent AI receptionist that answers calls, schedules appointments, and fields customer questions 24/7. Perfect for clinics, salons, and local businesses.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/dashboard" className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl font-medium text-lg transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_-10px_rgba(16,185,129,0.5)]">
-              Start Free Trial
-            </Link>
-            <button className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-[#1a1a1a] hover:bg-[#262626] border border-[#333] text-white rounded-xl font-medium text-lg transition-all">
-              <Play className="w-5 h-5" /> Hear a Demo
-            </button>
+          <div className="flex flex-col items-center justify-center gap-4">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
+              <Link to="/dashboard" className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl font-medium text-lg transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_-10px_rgba(16,185,129,0.5)]">
+                Start Free Trial
+              </Link>
+              <a href="tel:+17867518929" className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-[#1a1a1a] hover:bg-[#262626] border border-[#333] text-white rounded-xl font-medium text-lg transition-all hover:scale-105 active:scale-95">
+                <Phone className="w-5 h-5" /> Call My Receptionist
+              </a>
+            </div>
+            <p className="text-gray-400 text-sm mt-2">
+              Try it now: <a href="tel:+17867518929" className="text-emerald-400 font-mono hover:underline hover:text-emerald-300 transition-colors">(786) 751-8929</a>
+            </p>
           </div>
         </div>
       </section>
