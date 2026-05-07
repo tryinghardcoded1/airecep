@@ -46,20 +46,20 @@ const callsData = [
     assistant: "Ava",
     assistantId: "e961df35...",
     assistantPhone: "+1 (786) 751 8929",
-    assistantPhoneName: "Ava Phone NUmber",
+    assistantPhoneName: "Ava-Rufnummer",
     customerPhone: "+1 (267) 259 3105",
-    type: "Inbound",
-    endedReason: "Customer Ended Call",
+    type: "Eingehend",
+    endedReason: "Kunde hat aufgelegt",
     successEval: "-",
     score: "0",
-    startTime: "Mar 24, 2026, 11:44",
+    startTime: "24. März 2026, 11:44",
     duration: "1m 37s",
-    cost: "$0.19",
+    cost: "0,19 €",
     transcript: [
-      { speaker: "Assistant", text: "Hi. Thanks for calling. This is Ava. Just so I can point you in the right direction, are you calling as a customer or a business owner curious how this works?", time: "11:44:43 AM (+00:00.79)" },
-      { speaker: "User", text: "Customer.", time: "11:44:58 AM (+00:15.37)" },
-      { speaker: "Assistant", text: "Got it. I can help you with that. What would you like to do today?", time: "11:44:59 AM (+00:17.03)" },
-      { speaker: "User", text: "Hello?", time: "11:45:17 AM (+00:34.53)" }
+      { speaker: "Assistent", text: "Hallo. Vielen Dank für Ihren Anruf. Hier ist Ava. Damit ich Sie richtig weiterleiten kann: Rufen Sie als Kunde an oder als Geschäftsinhaber, der wissen möchte, wie das funktioniert?", time: "11:44:43 (GMT+1)" },
+      { speaker: "Nutzer", text: "Kunde.", time: "11:44:58 (GMT+1)" },
+      { speaker: "Assistent", text: "Verstanden. Ich kann Ihnen dabei helfen. Was kann ich heute für Sie tun?", time: "11:44:59 (GMT+1)" },
+      { speaker: "Nutzer", text: "Hallo?", time: "11:45:17 (GMT+1)" }
     ]
   },
   {
@@ -68,18 +68,18 @@ const callsData = [
     assistant: "Ava",
     assistantId: "e961df35...",
     assistantPhone: "+1 (786) 751 8929",
-    assistantPhoneName: "Ava Phone NUmber",
+    assistantPhoneName: "Ava-Rufnummer",
     customerPhone: "+1 (267) 977 5048",
-    type: "Inbound",
-    endedReason: "Customer Ended Call",
+    type: "Eingehend",
+    endedReason: "Kunde hat aufgelegt",
     successEval: "-",
     score: "0",
-    startTime: "Mar 24, 2026, 11:43",
+    startTime: "24. März 2026, 11:43",
     duration: "0m 45s",
-    cost: "$0.08",
+    cost: "0,08 €",
     transcript: [
-      { speaker: "Assistant", text: "Hello, this is Ava. How can I assist you today?", time: "11:43:05 AM (+00:01.20)" },
-      { speaker: "User", text: "I need help with my account.", time: "11:43:15 AM (+00:11.50)" }
+      { speaker: "Assistent", text: "Hallo, hier ist Ava. Wie kann ich Ihnen heute helfen?", time: "11:43:05 (GMT+1)" },
+      { speaker: "Nutzer", text: "Ich benötige Hilfe mit meinem Konto.", time: "11:43:15 (GMT+1)" }
     ]
   },
   {
@@ -88,15 +88,15 @@ const callsData = [
     assistant: "Ava",
     assistantId: "e961df35...",
     assistantPhone: "+1 (786) 751 8929",
-    assistantPhoneName: "Ava Phone NUmber",
+    assistantPhoneName: "Ava-Rufnummer",
     customerPhone: "+1 (202) 491 0902",
-    type: "Inbound",
-    endedReason: "Customer Ended Call",
+    type: "Eingehend",
+    endedReason: "Kunde hat aufgelegt",
     successEval: "-",
     score: "0",
-    startTime: "Mar 19, 2026, 01:56",
+    startTime: "19. März 2026, 01:56",
     duration: "2m 10s",
-    cost: "$0.25",
+    cost: "0,25 €",
     transcript: []
   },
   {
@@ -105,15 +105,15 @@ const callsData = [
     assistant: "Ava",
     assistantId: "e961df35...",
     assistantPhone: "+1 (786) 751 8929",
-    assistantPhoneName: "Ava Phone NUmber",
+    assistantPhoneName: "Ava-Rufnummer",
     customerPhone: "+1 (717) 637 4394",
-    type: "Inbound",
-    endedReason: "Customer Ended Call",
+    type: "Eingehend",
+    endedReason: "Kunde hat aufgelegt",
     successEval: "-",
     score: "100",
-    startTime: "Mar 18, 2026, 21:05",
+    startTime: "18. März 2026, 21:05",
     duration: "5m 20s",
-    cost: "$0.65",
+    cost: "0,65 €",
     transcript: []
   },
   {
@@ -122,15 +122,15 @@ const callsData = [
     assistant: "Ava",
     assistantId: "e961df35...",
     assistantPhone: "+1 (786) 751 8929",
-    assistantPhoneName: "Ava Phone NUmber",
+    assistantPhoneName: "Ava-Rufnummer",
     customerPhone: "+1 (717) 778 4536",
-    type: "Inbound",
-    endedReason: "Customer Ended Call",
+    type: "Eingehend",
+    endedReason: "Kunde hat aufgelegt",
     successEval: "-",
     score: "N/A",
-    startTime: "Mar 18, 2026, 17:46",
+    startTime: "18. März 2026, 17:46",
     duration: "1m 05s",
-    cost: "$0.12",
+    cost: "0,12 €",
     transcript: []
   },
   {
@@ -139,15 +139,15 @@ const callsData = [
     assistant: "Ava",
     assistantId: "e961df35...",
     assistantPhone: "+1 (786) 751 8929",
-    assistantPhoneName: "Ava Phone NUmber",
+    assistantPhoneName: "Ava-Rufnummer",
     customerPhone: "+1 (717) 677 0077",
-    type: "Inbound",
-    endedReason: "Customer Ended Call",
+    type: "Eingehend",
+    endedReason: "Kunde hat aufgelegt",
     successEval: "-",
     score: "N/A",
-    startTime: "Mar 18, 2026, 17:42",
+    startTime: "18. März 2026, 17:42",
     duration: "0m 30s",
-    cost: "$0.05",
+    cost: "0,05 €",
     transcript: []
   },
   {
@@ -156,15 +156,15 @@ const callsData = [
     assistant: "Ava",
     assistantId: "e961df35...",
     assistantPhone: "+1 (786) 751 8929",
-    assistantPhoneName: "Ava Phone NUmber",
+    assistantPhoneName: "Ava-Rufnummer",
     customerPhone: "+1 (412) 732 0186",
-    type: "Inbound",
-    endedReason: "Customer Ended Call",
+    type: "Eingehend",
+    endedReason: "Kunde hat aufgelegt",
     successEval: "-",
     score: "N/A",
-    startTime: "Mar 17, 2026, 20:53",
+    startTime: "17. März 2026, 20:53",
     duration: "3m 45s",
-    cost: "$0.42",
+    cost: "0,42 €",
     transcript: []
   },
   {
@@ -173,15 +173,15 @@ const callsData = [
     assistant: "Ava",
     assistantId: "e961df35...",
     assistantPhone: "+1 (786) 751 8929",
-    assistantPhoneName: "Ava Phone NUmber",
+    assistantPhoneName: "Ava-Rufnummer",
     customerPhone: "+1 (412) 232 3015",
-    type: "Inbound",
-    endedReason: "Customer Ended Call",
+    type: "Eingehend",
+    endedReason: "Kunde hat aufgelegt",
     successEval: "-",
     score: "N/A",
-    startTime: "Mar 17, 2026, 20:50",
+    startTime: "17. März 2026, 20:50",
     duration: "0m 15s",
-    cost: "$0.02",
+    cost: "0,02 €",
     transcript: []
   }
 ];
@@ -238,7 +238,7 @@ export function Dashboard() {
       {/* Sidebar */}
       <div className={`${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 fixed md:relative z-40 w-[260px] h-full flex-shrink-0 border-r border-[#262626] bg-[#0a0a0a] flex flex-col`}>
         <div className="p-4 flex items-center justify-between">
-          <div className="font-bold text-xl text-white tracking-tight">AI RECEPTIONIST</div>
+          <div className="font-bold text-xl text-white tracking-tight">AI Receptionist</div>
           <PanelLeftClose 
             className="w-5 h-5 text-gray-500 hover:text-gray-300 cursor-pointer" 
             onClick={() => setSidebarOpen(false)}
@@ -267,47 +267,47 @@ export function Dashboard() {
 
         <div className="flex-1 overflow-y-auto custom-scrollbar px-3 pb-20">
           <div className="mb-6">
-            <div className="text-xs font-semibold text-gray-500 mb-2 px-2 tracking-wider">VAPI LABS <span className="ml-1 text-[10px] font-normal border border-gray-700 rounded-full px-1.5 py-0.5">Info</span></div>
-            <NavItem icon={<Sparkles className="w-4 h-4" />} label="Composer" badge="Alpha" />
+            <div className="text-xs font-semibold text-gray-500 mb-2 px-2 tracking-wider">KI-LABOR <span className="ml-1 text-[10px] font-normal border border-gray-700 rounded-full px-1.5 py-0.5">Info</span></div>
+            <NavItem icon={<Sparkles className="w-4 h-4" />} label="Komponist" badge="Alpha" />
           </div>
 
           <div className="mb-6">
-            <div className="text-xs font-semibold text-gray-500 mb-2 px-2 tracking-wider">BUILD</div>
-            <NavItem icon={<Bot className="w-4 h-4" />} label="Assistants" />
-            <NavItem icon={<Users className="w-4 h-4" />} label="Squads" />
-            <NavItem icon={<Wrench className="w-4 h-4" />} label="Tools" />
-            <NavItem icon={<Phone className="w-4 h-4" />} label="Phone Numbers" />
-            <NavItem icon={<Layers className="w-4 h-4" />} label="Resources" hasChevron />
+            <div className="text-xs font-semibold text-gray-500 mb-2 px-2 tracking-wider">ERSTELLEN</div>
+            <NavItem icon={<Bot className="w-4 h-4" />} label="Assistenten" />
+            <NavItem icon={<Users className="w-4 h-4" />} label="Teams" />
+            <NavItem icon={<Wrench className="w-4 h-4" />} label="Werkzeuge" />
+            <NavItem icon={<Phone className="w-4 h-4" />} label="Telefonnummern" />
+            <NavItem icon={<Layers className="w-4 h-4" />} label="Ressourcen" hasChevron />
           </div>
 
           <div className="mb-6">
-            <div className="text-xs font-semibold text-gray-500 mb-2 px-2 tracking-wider">TEST</div>
-            <NavItem icon={<CheckCircle2 className="w-4 h-4" />} label="Evals" badge="Beta" />
-            <NavItem icon={<Beaker className="w-4 h-4" />} label="Test Suites" />
+            <div className="text-xs font-semibold text-gray-500 mb-2 px-2 tracking-wider">TESTEN</div>
+            <NavItem icon={<CheckCircle2 className="w-4 h-4" />} label="Bewertungen" badge="Beta" />
+            <NavItem icon={<Beaker className="w-4 h-4" />} label="Test-Suiten" />
           </div>
 
           <div className="mb-6">
-            <div className="text-xs font-semibold text-gray-500 mb-2 px-2 tracking-wider">OBSERVE</div>
-            <NavItem icon={<FileText className="w-4 h-4" />} label="Logs" active />
-            <NavItem icon={<BarChart2 className="w-4 h-4" />} label="Metrics" />
+            <div className="text-xs font-semibold text-gray-500 mb-2 px-2 tracking-wider">ÜBERWACHEN</div>
+            <NavItem icon={<FileText className="w-4 h-4" />} label="Protokolle" active />
+            <NavItem icon={<BarChart2 className="w-4 h-4" />} label="Metriken" />
             <NavItem icon={<LayoutDashboard className="w-4 h-4" />} label="Boards" />
-            <NavItem icon={<FileJson className="w-4 h-4" />} label="Structured Outputs" />
+            <NavItem icon={<FileJson className="w-4 h-4" />} label="Ausgaben" />
           </div>
 
           <div className="mb-6">
-            <div className="text-xs font-semibold text-gray-500 mb-2 px-2 tracking-wider">MANAGE</div>
-            <NavItem icon={<Key className="w-4 h-4" />} label="API Keys" />
-            <NavItem icon={<Blocks className="w-4 h-4" />} label="Integrations" />
+            <div className="text-xs font-semibold text-gray-500 mb-2 px-2 tracking-wider">VERWALTEN</div>
+            <NavItem icon={<Key className="w-4 h-4" />} label="API-Schlüssel" />
+            <NavItem icon={<Blocks className="w-4 h-4" />} label="Integrationen" />
           </div>
         </div>
 
         <div className="p-4 border-t border-[#262626] bg-[#0a0a0a] mt-auto">
           <div className="flex items-center justify-between mb-3 px-2">
             <span className="text-xs text-gray-400">PAYG</span>
-            <span className="text-sm text-gray-200 font-medium">7.00 <span className="text-xs text-gray-500 font-normal">Credits</span></span>
+            <span className="text-sm text-gray-200 font-medium">7,00 <span className="text-xs text-gray-500 font-normal">Guthaben</span></span>
           </div>
           <button className="w-full py-2 bg-[#1a1a1a] hover:bg-[#262626] border border-[#262626] rounded-md text-sm font-medium text-gray-300 transition-colors flex items-center justify-center gap-2">
-            <span className="text-emerald-500">↑</span> Buy Credits
+            <span className="text-emerald-500">↑</span> Guthaben kaufen
           </button>
         </div>
       </div>
@@ -319,15 +319,15 @@ export function Dashboard() {
           <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-3 mb-4 md:mb-6">
             <div className="flex items-center gap-3">
               <FileText className="w-5 h-5 md:w-6 md:h-6 text-gray-400" />
-              <h1 className="text-lg md:text-xl font-semibold text-gray-200">Logs</h1>
+              <h1 className="text-lg md:text-xl font-semibold text-gray-200">Protokolle</h1>
             </div>
-            <span className="text-xs md:text-sm text-gray-500 md:ml-2">View and manage logs for your account.</span>
+            <span className="text-xs md:text-sm text-gray-500 md:ml-2">Anrufprotokolle Ihres Kontos einsehen und verwalten.</span>
           </div>
           
           <div className="flex gap-4 md:gap-6 text-sm overflow-x-auto custom-scrollbar pb-1">
-            <div className="text-white border-b-2 border-white pb-2 font-medium cursor-pointer whitespace-nowrap">Calls</div>
+            <div className="text-white border-b-2 border-white pb-2 font-medium cursor-pointer whitespace-nowrap">Anrufe</div>
             <div className="text-gray-500 hover:text-gray-300 pb-2 cursor-pointer transition-colors whitespace-nowrap">Chat</div>
-            <div className="text-gray-500 hover:text-gray-300 pb-2 cursor-pointer transition-colors whitespace-nowrap">Sessions</div>
+            <div className="text-gray-500 hover:text-gray-300 pb-2 cursor-pointer transition-colors whitespace-nowrap">Sitzungen</div>
             <div className="text-gray-500 hover:text-gray-300 pb-2 cursor-pointer transition-colors whitespace-nowrap">Webhooks</div>
             <div className="text-gray-500 hover:text-gray-300 pb-2 cursor-pointer transition-colors whitespace-nowrap">API</div>
           </div>
@@ -337,40 +337,40 @@ export function Dashboard() {
         <div className="px-4 md:px-8 py-4 flex flex-col gap-4">
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
             <div className="flex items-center gap-2 overflow-x-auto custom-scrollbar pb-1">
-              <FilterButton label="All Calls" count={8} active />
-              <FilterButton label="Transferred" count={0} icon={<RefreshCw className="w-3 h-3" />} />
-              <FilterButton label="Successful" count={7} icon={<CheckCircle2 className="w-3 h-3" />} />
-              <FilterButton label="Failed" count={0} icon={<XCircle className="w-3 h-3" />} />
+            <FilterButton label="Alle Anrufe" count={8} active />
+            <FilterButton label="Weitergeleitet" count={0} icon={<RefreshCw className="w-3 h-3" />} />
+            <FilterButton label="Erfolgreich" count={7} icon={<CheckCircle2 className="w-3 h-3" />} />
+            <FilterButton label="Fehlgeschlagen" count={0} icon={<XCircle className="w-3 h-3" />} />
             </div>
             <div className="flex items-center gap-2 md:gap-3 self-start lg:self-auto">
-              <button className="flex items-center gap-2 px-3 py-1.5 bg-[#1a1a1a] hover:bg-[#262626] border border-[#262626] rounded-md text-sm text-gray-300 transition-colors">
-                <RefreshCw className="w-4 h-4" /> <span className="hidden sm:inline">Refresh</span>
+            <button className="flex items-center gap-2 px-3 py-1.5 bg-[#1a1a1a] hover:bg-[#262626] border border-[#262626] rounded-md text-sm text-gray-300 transition-colors">
+                <RefreshCw className="w-4 h-4" /> <span className="hidden sm:inline">Aktualisieren</span>
               </button>
               <button className="flex items-center gap-2 px-3 py-1.5 bg-[#1a1a1a] hover:bg-[#262626] border border-[#262626] rounded-md text-sm text-gray-300 transition-colors">
-                <Download className="w-4 h-4" /> <span className="hidden sm:inline">Export</span>
+                <Download className="w-4 h-4" /> <span className="hidden sm:inline">Exportieren</span>
               </button>
             </div>
           </div>
 
           <div className="hidden md:block">
-            <div className="text-xs text-gray-500 mb-2">Quick filters show counts for currently loaded results only.</div>
+            <div className="text-xs text-gray-500 mb-2">Schnellfilter zeigen Ergebnisse der aktuell geladenen Anrufe.</div>
             <div className="flex flex-wrap gap-2">
-              <QuickFilter label="Date and Time" value="Starting from 03/17/2026" valueColor="text-emerald-500" />
-              <QuickFilter label="Cost" />
-              <QuickFilter label="Call Type" />
-              <QuickFilter label="Assistant" />
-              <QuickFilter label="Transient Assistant Name" />
-              <QuickFilter label="Squad" />
-              <QuickFilter label="Transient Squad Name" />
-              <QuickFilter label="Assistant Phone Number" />
-              <QuickFilter label="Customer Phone Number" />
-              <QuickFilter label="Call ID" />
-              <QuickFilter label="Success Evaluation" />
-              <QuickFilter label="Ended Reason" />
-              <QuickFilter label="Metadata" />
-              <QuickFilter label="Structured Outputs" />
+              <QuickFilter label="Datum und Uhrzeit" value="Ab dem 17.03.2026" valueColor="text-emerald-500" />
+              <QuickFilter label="Kosten" />
+              <QuickFilter label="Anrufart" />
+              <QuickFilter label="Assistent" />
+              <QuickFilter label="Vorübergehender Assistentenname" />
+              <QuickFilter label="Team" />
+              <QuickFilter label="Vorübergehender Teamname" />
+              <QuickFilter label="Assistent-Rufnummer" />
+              <QuickFilter label="Kunden-Rufnummer" />
+              <QuickFilter label="Anruf-ID" />
+              <QuickFilter label="Erfolgsbewertung" />
+              <QuickFilter label="Beendegrund" />
+              <QuickFilter label="Metadaten" />
+              <QuickFilter label="Strukturierte Ausgaben" />
               <QuickFilter label="Score" />
-              <QuickFilter label="Assistant Override Variable Values" />
+              <QuickFilter label="Variable Werte des Assistenten" />
             </div>
           </div>
         </div>
@@ -384,15 +384,15 @@ export function Dashboard() {
                 <tr className="border-b border-[#262626] text-xs text-gray-500 font-medium">
                   <th className="py-3 px-2 w-10"><div className="w-4 h-4 border border-gray-600 rounded"></div></th>
                   <th className="py-3 px-2 w-10"></th>
-                  <th className="py-3 px-4 font-medium tracking-wider">CALL ID</th>
-                  <th className="py-3 px-4 font-medium tracking-wider">ASSISTANT / SQUAD</th>
-                  <th className="py-3 px-4 font-medium tracking-wider">ASSISTANT PHONE NUMBER</th>
-                  <th className="py-3 px-4 font-medium tracking-wider">CUSTOMER PHONE NUMBER</th>
-                  <th className="py-3 px-4 font-medium tracking-wider">TYPE</th>
-                  <th className="py-3 px-4 font-medium tracking-wider">ENDED REASON</th>
-                  <th className="py-3 px-4 font-medium tracking-wider">SUCCESS EVALUATION</th>
+                  <th className="py-3 px-4 font-medium tracking-wider">ANRUF-ID</th>
+                  <th className="py-3 px-4 font-medium tracking-wider">ASSISTENT / TEAM</th>
+                  <th className="py-3 px-4 font-medium tracking-wider">ASSISTENT-RUFNUMMER</th>
+                  <th className="py-3 px-4 font-medium tracking-wider">KUNDEN-RUFNUMMER</th>
+                  <th className="py-3 px-4 font-medium tracking-wider">TYP</th>
+                  <th className="py-3 px-4 font-medium tracking-wider">BEENDEGRUND</th>
+                  <th className="py-3 px-4 font-medium tracking-wider">ERFOLGSBEWERTUNG</th>
                   <th className="py-3 px-4 font-medium tracking-wider">SCORE</th>
-                  <th className="py-3 px-4 font-medium tracking-wider flex items-center gap-1 cursor-pointer hover:text-gray-300">START TIME <ChevronDown className="w-3 h-3" /></th>
+                  <th className="py-3 px-4 font-medium tracking-wider flex items-center gap-1 cursor-pointer hover:text-gray-300">STARTZEIT <ChevronDown className="w-3 h-3" /></th>
                 </tr>
               </thead>
               <tbody className="text-sm">
@@ -553,17 +553,17 @@ function CallDetailsView({ call, playingCallId, progress, togglePlay, isMobile =
         <div className="flex flex-wrap items-center gap-2 md:gap-4 text-xs md:text-sm">
           <div className="flex items-center gap-2 text-emerald-400 font-medium bg-emerald-400/10 px-2 py-1 rounded">
             <span>{call.startTime}</span>
-            <span>inboundPhoneCall</span>
+            <span>Eingehender Anruf</span>
           </div>
-          <div className="bg-[#262626] text-gray-300 px-2 py-1 rounded text-xs">Assistant</div>
+          <div className="bg-[#262626] text-gray-300 px-2 py-1 rounded text-xs">Assistent</div>
           <div className="flex items-center gap-1 text-gray-400">
-            <Phone className="w-3 h-3" /> Customer: {call.customerPhone}
+            <Phone className="w-3 h-3" /> Kunde: {call.customerPhone}
           </div>
-          <div className="text-gray-400">Ended: {call.endedReason}</div>
+          <div className="text-gray-400">Beendet: {call.endedReason}</div>
         </div>
         <div className="flex items-center gap-4 text-xs md:text-sm text-gray-400">
-          <div className="flex items-center gap-1"><DollarSign className="w-3 h-3" /> Cost: {call.cost}</div>
-          <div className="flex items-center gap-1"><Clock className="w-3 h-3" /> Duration: {call.duration}</div>
+          <div className="flex items-center gap-1"><DollarSign className="w-3 h-3" /> Kosten: {call.cost}</div>
+          <div className="flex items-center gap-1"><Clock className="w-3 h-3" /> Dauer: {call.duration}</div>
         </div>
       </div>
 
@@ -576,7 +576,7 @@ function CallDetailsView({ call, playingCallId, progress, togglePlay, isMobile =
       {/* Recording Player */}
       <div className="mb-8">
         <div className="flex items-center justify-between mb-2">
-          <h3 className="text-base font-medium text-gray-200">Recording</h3>
+          <h3 className="text-base font-medium text-gray-200">Aufzeichnung</h3>
           <span className="text-sm text-gray-400 font-mono">01:37</span>
         </div>
         
@@ -633,16 +633,16 @@ function CallDetailsView({ call, playingCallId, progress, togglePlay, isMobile =
       {/* Tabs */}
       <div className="flex gap-6 text-sm border-b border-[#262626] mb-6 overflow-x-auto custom-scrollbar pb-1">
         <div className="flex items-center gap-2 text-emerald-400 border-b-2 border-emerald-400 pb-2 font-medium cursor-pointer whitespace-nowrap">
-          <MessageSquare className="w-4 h-4" /> Transcripts
+          <MessageSquare className="w-4 h-4" /> Transkripte
         </div>
         <div className="flex items-center gap-2 text-gray-500 hover:text-gray-300 pb-2 cursor-pointer transition-colors whitespace-nowrap">
-          <FileText className="w-4 h-4" /> Logs
+          <FileText className="w-4 h-4" /> Protokolle
         </div>
         <div className="flex items-center gap-2 text-gray-500 hover:text-gray-300 pb-2 cursor-pointer transition-colors whitespace-nowrap">
-          <Activity className="w-4 h-4" /> Analysis
+          <Activity className="w-4 h-4" /> Analyse
         </div>
         <div className="flex items-center gap-2 text-gray-500 hover:text-gray-300 pb-2 cursor-pointer transition-colors whitespace-nowrap">
-          <FileJson className="w-4 h-4" /> Structured Outputs
+          <FileJson className="w-4 h-4" /> Strukturierte Ausgaben
         </div>
       </div>
 
@@ -650,22 +650,22 @@ function CallDetailsView({ call, playingCallId, progress, togglePlay, isMobile =
       <div className="space-y-4">
         {call.transcript && call.transcript.length > 0 ? (
           call.transcript.map((msg: any, idx: number) => (
-            <div key={idx} className={`flex flex-col ${msg.speaker === 'User' ? 'items-end' : 'items-start'}`}>
-              <div className={`max-w-[85%] md:max-w-[75%] rounded-lg p-3 md:p-4 ${msg.speaker === 'User' ? 'bg-[#262626] text-gray-200' : 'bg-[#1a1a1a] border border-[#262626] text-gray-300'}`}>
-                <div className={`text-xs mb-1 ${msg.speaker === 'User' ? 'text-gray-400' : 'text-emerald-500'}`}>
+            <div key={idx} className={`flex flex-col ${msg.speaker === 'Nutzer' ? 'items-end' : 'items-start'}`}>
+              <div className={`max-w-[85%] md:max-w-[75%] rounded-lg p-3 md:p-4 ${msg.speaker === 'Nutzer' ? 'bg-[#262626] text-gray-200' : 'bg-[#1a1a1a] border border-[#262626] text-gray-300'}`}>
+                <div className={`text-xs mb-1 ${msg.speaker === 'Nutzer' ? 'text-gray-400' : 'text-emerald-500'}`}>
                   {msg.speaker}
                 </div>
                 <div className="text-sm leading-relaxed">{msg.text}</div>
               </div>
               <div className="text-[10px] text-gray-500 mt-1 font-mono flex items-center gap-2">
                 {msg.time}
-                {msg.speaker === 'Assistant' && <span className="cursor-pointer hover:text-gray-300">👎</span>}
+                {msg.speaker === 'Assistent' && <span className="cursor-pointer hover:text-gray-300">👎</span>}
               </div>
             </div>
           ))
         ) : (
           <div className="text-center py-8 text-gray-500 text-sm">
-            No transcript available for this call.
+            Kein Transkript für diesen Anruf verfügbar.
           </div>
         )}
       </div>
@@ -731,19 +731,19 @@ function Home() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Bot className="w-6 h-6 text-emerald-500" />
-            <span className="font-bold text-lg text-white tracking-tight">AI RECEPTIONIST</span>
+            <span className="font-bold text-lg text-white tracking-tight">AI Receptionist</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium">
-            <a href="#features" className="text-gray-400 hover:text-white transition-colors">Features</a>
-            <a href="#how-it-works" className="text-gray-400 hover:text-white transition-colors">How it Works</a>
-            <a href="#pricing" className="text-gray-400 hover:text-white transition-colors">Pricing</a>
+            <a href="#features" className="text-gray-400 hover:text-white transition-colors">Funktionen</a>
+            <a href="#how-it-works" className="text-gray-400 hover:text-white transition-colors">Funktionsweise</a>
+            <a href="#pricing" className="text-gray-400 hover:text-white transition-colors">Preise</a>
           </div>
           <div className="flex items-center gap-4">
             <Link to="/dashboard" className="hidden md:flex text-sm font-medium text-gray-300 hover:text-white transition-colors">
-              Sign In
+              Anmelden
             </Link>
             <Link to="/dashboard" className="flex items-center gap-2 px-4 py-2 bg-white hover:bg-gray-200 text-black rounded-lg text-sm font-medium transition-colors">
-              Go to Dashboard <ArrowRight className="w-4 h-4" />
+              Zum Dashboard <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
         </div>
@@ -756,28 +756,28 @@ function Home() {
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#1a1a1a] border border-[#262626] text-emerald-400 text-sm font-medium mb-8">
-            <Sparkles className="w-4 h-4" /> Introducing Next-Gen Voice AI
+            <Sparkles className="w-4 h-4" /> Die Zukunft des Business
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight leading-tight mb-8">
-            Never miss a call.<br />
+            Keinen Anruf mehr verpassen.<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">
-              Always sound human.
+              Klingt immer wie ein Mensch.
             </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Deploy an intelligent AI receptionist that answers calls, schedules appointments, and fields customer questions 24/7. Perfect for clinics, salons, and local businesses.
+            Nutzen Sie eine intelligente KI-Telefonzentrale, die Anrufe entgegennimmt, Termine vereinbart und Kundenfragen rund um die Uhr beantwortet. Ideal für Arztpraxen, Salons und lokale Unternehmen.
           </p>
           <div className="flex flex-col items-center justify-center gap-4">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
               <Link to="/dashboard" className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black rounded-xl font-medium text-lg transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_-10px_rgba(16,185,129,0.5)]">
-                Start Free Trial
+                Kostenlos testen
               </Link>
-              <a href="tel:+17867518929" className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-[#1a1a1a] hover:bg-[#262626] border border-[#333] text-white rounded-xl font-medium text-lg transition-all hover:scale-105 active:scale-95">
-                <Phone className="w-5 h-5" /> Call My Receptionist
+              <a href="tel:+3197010288157" className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-[#1a1a1a] hover:bg-[#262626] border border-[#333] text-white rounded-xl font-medium text-lg transition-all hover:scale-105 active:scale-95">
+                <Phone className="w-5 h-5" /> KI-Empfang anrufen
               </a>
             </div>
             <p className="text-gray-400 text-sm mt-2">
-              Try it now: <a href="tel:+17867518929" className="text-emerald-400 font-mono hover:underline hover:text-emerald-300 transition-colors">(786) 751-8929</a>
+              Jetzt ausprobieren: <a href="tel:+3197010288157" className="text-emerald-400 font-mono hover:underline hover:text-emerald-300 transition-colors">+31 970 102 88157</a>
             </p>
           </div>
         </div>
@@ -787,8 +787,8 @@ function Home() {
       <section id="features" className="py-24 border-t border-[#1a1a1a] bg-[#050505]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Everything you need to automate voice</h2>
-            <p className="text-gray-400">Powerful features built for modern businesses who care about customer experience.</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Alles für Ihre Sprachautomatisierung</h2>
+            <p className="text-gray-400">Leistungsstarke Funktionen für moderne Unternehmen, die Wert auf Kundenservice legen.</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-6">
@@ -798,9 +798,9 @@ function Home() {
               <div className="w-12 h-12 bg-[#1a1a1a] border border-[#333] rounded-xl flex items-center justify-center mb-6">
                 <Clock className="w-6 h-6 text-emerald-400" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">24/7 Availability</h3>
+              <h3 className="text-xl font-semibold text-white mb-3">Rund um die Uhr erreichbar</h3>
               <p className="text-gray-400 leading-relaxed">
-                Your business never sleeps. Our AI receptionist answers the phone instantly, every time, no matter the hour.
+                Ihr Unternehmen schläft nie. Unsere KI nimmt jeden Anruf sofort entgegen – egal zu welcher Uhrzeit.
               </p>
             </div>
 
@@ -810,9 +810,9 @@ function Home() {
               <div className="w-12 h-12 bg-[#1a1a1a] border border-[#333] rounded-xl flex items-center justify-center mb-6">
                 <Shield className="w-6 h-6 text-blue-400" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Smart Routing</h3>
+              <h3 className="text-xl font-semibold text-white mb-3">Intelligente Weiterleitung</h3>
               <p className="text-gray-400 leading-relaxed">
-                Intelligently transfers complex inquiries to the right human staff member with full context of the conversation.
+                Leitet komplexe Anfragen intelligent an die zuständigen Mitarbeiter weiter – inklusive aller Kontextinformationen.
               </p>
             </div>
 
@@ -822,9 +822,9 @@ function Home() {
               <div className="w-12 h-12 bg-[#1a1a1a] border border-[#333] rounded-xl flex items-center justify-center mb-6">
                 <Zap className="w-6 h-6 text-purple-400" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">Instant Transcripts</h3>
+              <h3 className="text-xl font-semibold text-white mb-3">Sofortige Transkripte</h3>
               <p className="text-gray-400 leading-relaxed">
-                Every call is automatically recorded, transcribed, and summarized with sentiment analysis in your dashboard.
+                Jeder Anruf wird automatisch protokolliert, transkribiert und für Ihr Dashboard analysiert.
               </p>
             </div>
           </div>
@@ -836,9 +836,9 @@ function Home() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
           <div className="flex items-center gap-2">
             <Bot className="w-5 h-5 text-gray-400" />
-            <span className="font-semibold text-gray-300">AI RECEPTIONIST</span>
+            <span className="font-semibold text-gray-300">AI Receptionist</span>
           </div>
-          <div>© 2026 AI Receptionist Inc. All rights reserved.</div>
+          <div>© 2026 AI Receptionist Inc. Alle Rechte vorbehalten.</div>
         </div>
       </footer>
     </div>
